@@ -1,0 +1,73 @@
+<!-- DEVELOPER: Roberto Ambrocio Jr, IS117-003, Fall 2023 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bar Menu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../styles/otherPageStyles.css">
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+    <script src="../scripts/script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/MalizBar.html">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        BAR MENU
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../pages/barMenu.html">MAIN MENU</a></li>
+                        <li><a class="dropdown-item" href="../pages/smurf-Drink.html">Smurf</a></li>
+                        <li><a class="dropdown-item" href="../pages/oreoFrappe-Drink.html">Oreo Frappe</a></li>
+                        <li><a class="dropdown-item" href="../pages/margaritaBulldog-Drink.html">Margarita Bulldog</a></li>
+                        <li><a class="dropdown-item" href="../pages/pinaColada-Drink.html">Pina Colada</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/socialMedia.html">SOCIAL MEDIA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/contactPage.html">CONTACT US</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input id="searchInput" class="form-control me-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="button" onclick="handleSearch()">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="barMenu">
+        <h1>Bar Menu</h1>
+        <div class="imgContainer">
+            <div class="item-smurf">
+                <img src="../images/SmurfDrink.jpg" alt="Smurf Drink" class="smurf"> 
+                <a href="../pages/smurf-Drink.html">Smurf Drink</a>
+            </div>
+            <div class="item-oreo">
+                <img src="../images/OreoFrappe.jpg" alt="Oreo Frappe" class="oreo">
+                <a href="../pages/oreoFrappe-Drink.html">Oreo Frappe</a>
+            </div>
+            <div class="item-marg">
+                <img src="../images/MargaritaBulldog.jpg" alt="Margarita Bulldog" class="margarita">
+                <a href="../pages/margaritaBulldog-Drink.html">Margarita Bulldog</a>
+            </div>
+            <div class="item-pina">
+                <img src="../images/PinaCoolada.jpg" alt="Pina Colada" class="pina">
+                <a href="../pages/pinaColada-Drink.html">Pina Colada</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a>Copyright &copy; 2023 Ambrocio</a>
+        <a>Terms of Service</a> 
+        <a>Privacy of Service</a>
+    </footer>
+</body>
+</html>

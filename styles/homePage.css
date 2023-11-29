@@ -1,0 +1,70 @@
+/*DEVELOPER: Roberto Ambrocio Jr, IS117-003, Fall 2023 */
+
+/* Styling for elements */
+body {
+    background-image: url('../images/WebsiteBackgroundImg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Styling for nav bar */
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    margin-top: 1.5%;
+    color: white !important;
+    background-color: black !important;
+}
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+}
+.navbar-nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    font-family: 'Kalam';
+}
+.navbar-form {
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    color: white !important;
+}
+.dropdown-menu {
+    background-color: black;
+}
+.dropdown-item {
+    color: white;
+}
+.form-control {
+    margin-left: 2%;
+}
+/* Styling for Main section */
+.main {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 4.25% auto;
+    padding: 2% 5% 2% 5%;
+    font-family: 'Kalam';
+}
+.main img {
+    width: 35%;
+    height: 50%;
+}
+/* Styling for footer */
+footer {
+    position: fixed;
+    color: white;
+    width: 65%;
+    bottom: 0;
+}
+footer a {
+    color: white;
+    float: left;
+    display: block;
+    width: 30%;
+    margin-top: 8%;
+    font-family: 'Arial-Sans';
+}
